@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --background: #09090b; --foreground: #fafafa; }
+body { background: var(--background); color: var(--foreground); }
+
+.video-js .vjs-big-play-button { @apply bg-rose-600 border-rose-600 rounded-full; }
+.video-js .vjs-control-bar { @apply bg-zinc-900/90; }
